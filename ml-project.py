@@ -10,8 +10,12 @@ import warnings
 import os
 warnings.filterwarnings('ignore')
 
-# Set MLflow tracking URI (local tracking)
-mlflow.set_tracking_uri("http://localhost:5000")
+# MLFLOW_TRACKING_URI = "ADD YOUR TRACKING URI HERE"
+# mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "ADD YOUR USERNAME HERE"
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "ADD YOUR PASSWORD HERE"
+
 
 # Create experiments directory if it doesn't exist
 if not os.path.exists("mlruns"):
