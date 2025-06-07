@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/950056942980686119/0920c4e17e6a4fb2bb938827fa9da054/artifacts
+end_time: 1749294624421
+entry_point_name: ''
+experiment_id: '950056942980686119'
+lifecycle_stage: active
+run_id: 0920c4e17e6a4fb2bb938827fa9da054
+run_name: Personality Prediction Model
+run_uuid: 0920c4e17e6a4fb2bb938827fa9da054
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749294605655
+status: 3
+tags: []
+user_id: admin
